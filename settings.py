@@ -11,10 +11,10 @@ MONGO_DBNAME='itemdb'
 # MONGO_DBNAME = 'item'
 
 # for complete resource
-RESOURCE_METHODS = ['GET', 'POST', 'DELETE']
+RESOURCE_METHODS = ['GET', 'POST', 'PUT' 'DELETE']
 
 # for individual items
-ITEM_METHODS = ['GET', 'PATCH', 'DELETE']
+ITEM_METHODS = ['GET', 'PATCH', 'PUT', 'DELETE']
 
 product = {
     'item_title': 'product',
@@ -25,8 +25,8 @@ product = {
         'field': 'product_name'
     },
 
-    # most global settings can be overridden at resource level
-    'resource_methods': ['GET', 'POST'],
+    # # most global settings can be overridden at resource level
+    # 'resource_methods': ['GET', 'POST'],
 
     # override global cache-control directives for this resource.
     'cache_control': 'max-age=10,must-revalidate',
