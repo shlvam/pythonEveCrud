@@ -12,6 +12,4 @@ curl -d '[{"product_name": "Coco", "price": 120.45}, {"product_name": "Lays", "p
 ## passing query paramete
 http://127.0.0.1:5000/product?sort=price
 
-## put request
-
 
