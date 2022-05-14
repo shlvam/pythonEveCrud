@@ -11,7 +11,7 @@ MONGO_DBNAME='itemdb'
 # MONGO_DBNAME = 'item'
 
 # for complete resource
-RESOURCE_METHODS = ['GET', 'POST', 'PUT' 'DELETE']
+RESOURCE_METHODS = ['GET', 'POST', 'DELETE']
 
 # for individual items
 ITEM_METHODS = ['GET', 'PATCH', 'PUT', 'DELETE']
